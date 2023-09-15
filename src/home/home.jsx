@@ -4,7 +4,30 @@ import './home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function home() {
-    const [name, setName] = useState("");
+    const [pet, setPet] = useState([
+                {
+                  nome: 'Porto de Galinhas',
+                  preco: '10x R$ 165 sem juros',
+                  imagem: "https://thumbcdn-z.hotelurbano.net/dpzTYnZcnx7biCB9tvdLzo4olFc=/320x240/center/middle/filters:quality(40)/https://s3.amazonaws.com/legado-prod/prod/ofertas/imagens/2023/07/26/12/44/iStock_1393142437.jpg"
+                },
+                {
+                  nome: 'Balneário Camboriú - 8 Dias',
+                  preco: '12x R$ 608 sem juros',
+                  imagem: "https://tse2.mm.bing.net/th?id=OIP.9PUPyM-v_fd8BInopxE3cQHaEK&pid=Api&P=0&h=180"
+                },
+                {
+                  nome: 'Bueno Aires - 4 Dias',
+                  preco: '10x R$ 270 sem juros',
+                  imagem: "https://tse2.mm.bing.net/th?id=OIP.ZbziJz0fXfeyd0v7qApPagHaEK&pid=Api&P=0&h=180"
+                },
+                {
+                  nome: 'Paris, Alpes e Itália',
+                  preco: '12x R$ 674 sem juros',
+                  imagem: "https://tse3.mm.bing.net/th?id=OIP.APAF-VEqoJKONYm8pSEcUwHaE7&pid=Api&P=0&h=180"
+                }
+
+    ]);
+    
     
 
     return(
