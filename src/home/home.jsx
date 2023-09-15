@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom"
+import './home.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function home() {
     const [name, setName] = useState("");
