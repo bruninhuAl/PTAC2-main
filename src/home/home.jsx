@@ -3,22 +3,6 @@ import { Link } from "react-router-dom"
 export default function home() {
     const [name, setName] = useState("");
 
-    const add = () => {
-        if (count < 10) {
-            setCount(count + 1);
-        }
-    };
-
-    const diminuir = () => {
-        if (count > 0) {
-            setCount(count - 1);
-        }
-    };
-
-    const reseta = () => {
-        setCount(0);
-    };
-
     return(
         <div>
             <h1>Home</h1>
