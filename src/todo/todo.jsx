@@ -10,8 +10,9 @@ export default function Todo() {
     const salvar = (e) => {
         e.preventDefault();
         setLista([...lista,{
-        atividade: atividade,
+        atividade: atividade, id:id
         }]);
+        setId(1 + 1)
         console.log(lista)
     };
     
