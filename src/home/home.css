@@ -1,0 +1,17 @@
+
+#marg{
+    margin-top: 50px;
+}
+
+#marg2{
+    margin-top: 140px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.card-col {
+    margin: 0 15px; /* Ajuste a margem conforme necessário */
+}
