@@ -6,24 +6,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function home() {
     const [pet, setPet] = useState([
                 {
-                  nome: 'Porto de Galinhas',
-                  preco: '10x R$ 165 sem juros',
-                  imagem: "https://thumbcdn-z.hotelurbano.net/dpzTYnZcnx7biCB9tvdLzo4olFc=/320x240/center/middle/filters:quality(40)/https://s3.amazonaws.com/legado-prod/prod/ofertas/imagens/2023/07/26/12/44/iStock_1393142437.jpg"
+                  nome: '10 bolinhas interativas',
+                  preco: '59,98',
+                  imagem: "https://cdn.dooca.store/1545/products/66fzuhkkgjzxjlxhihr1kt0mlreoxmc40xvx_640x640+fill_ffffff.jpg?v=1608638519&webp=0"
                 },
                 {
-                  nome: 'Balneário Camboriú - 8 Dias',
-                  preco: '12x R$ 608 sem juros',
-                  imagem: "https://tse2.mm.bing.net/th?id=OIP.9PUPyM-v_fd8BInopxE3cQHaEK&pid=Api&P=0&h=180"
+                  nome: 'Removedor de pelo 2 em 1',
+                  preco: '55,69',
+                  imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/s82e6d42ef8cb4a8086c3d40a130f8aa9d-925c8fc31ead173ace16666744051154-640-0.jpg"
                 },
                 {
-                  nome: 'Bueno Aires - 4 Dias',
-                  preco: '10x R$ 270 sem juros',
-                  imagem: "https://tse2.mm.bing.net/th?id=OIP.ZbziJz0fXfeyd0v7qApPagHaEK&pid=Api&P=0&h=180"
+                  nome: 'Polvo de Brinquedo',
+                  preco: '55,69',
+                  imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/s570ee7c48b66468c8c366577aa3839b1a-ebcfb2e42559d7858216666740563662-640-0.jpg"
                 },
                 {
-                  nome: 'Paris, Alpes e Itália',
-                  preco: '12x R$ 674 sem juros',
-                  imagem: "https://tse3.mm.bing.net/th?id=OIP.APAF-VEqoJKONYm8pSEcUwHaE7&pid=Api&P=0&h=180"
+                  nome: 'Fonte para Pet 3L',
+                  preco: '327,87',
+                  imagem: "https://d2r9epyceweg5n.cloudfront.net/stores/002/494/748/products/s1d3ab9eda2be4485a2c08b990dbf8592o-ac88efc65b9389629b16666738172202-640-0.jpg"
                 }
 
     ]);
