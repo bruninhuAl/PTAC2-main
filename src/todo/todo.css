@@ -1,0 +1,77 @@
+/* Estilos para o container principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centraliza verticalmente */
+    height: 100vh; /* Define a altura como 100% da viewport para centralizar verticalmente */
+  }
+  
+  /* Estilos para os inputs e labels */
+  .blue-border-input {
+    border: 2px solid #3498db; /* Cor do tom de azul */
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  /* Estilos para os botões */
+  .blue-border-button {
+    background-color: #3498db; /* Cor do tom de azul */
+    color: #fff; /* Cor do texto */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para a mensagem de sucesso */
+  .blue-message {
+    background-color: #3498db; /* Cor do tom de azul */
+    color: #fff; /* Cor do texto */
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Estilos para os elementos p dentro de .values-area */
+  .values-area p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  /* Estilos para o container .input-container */
+  .input-container {
+    max-width: 300px; /* Largura máxima do container */
+    text-align: center;
+  }
+  
+  /* Estilos para o form */
+  form {
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para o container .values-area */
+  .values-area {
+    max-width: 300px; /* Largura máxima do container */
+    text-align: center;
+  }
+  
+  /* Estilos para o container com classe .values-area div */
+  .values-area div {
+    margin-bottom: 10px;
+  }
+  
+  .card {
+    background-color: #f0f0f0; /* Cor de fundo do card */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    max-width: 400px; /* Largura máxima do card */
+    margin: 20px auto; /* Centraliza o card na página */
+    text-align: center; /* Centraliza o conteúdo dentro do card */
+  }
+  
+  /* Restante do seu CSS permanece o mesmo */
+  

@@ -1,21 +1,28 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import "./todo.css";
 
 export default function Todo() {
   const [lista, setLista] = useState([]);
   const [id, setId] = useState(1);
+  const [Email, setEmail] = useState("");
+  const [Cpf, setCpf] = useState("");
+  const [Senha, setSenha] = useState("");
+  const [exibirMensagem, setExibirMensagem] = useState(false);
 
-  const salvar = (e) => {
+  function salvar(e) {
     e.preventDefault();
-    setLista([
-      ...lista,
-      {
-        atividade: atividade,
-        id: id,
-      },
-    ]);
-    setId(1 + 1);
-    console.log(lista);
+    setLista([...lista, { id: id, Email: Email, Cpf: Cpf, Senha: Senha }]);
+    setId(id + 1);
+    setEmail("");
+    setCpf("");
+    setSenha("");
+    setExibirMensagem(true);
+  }
+
+  const remover = (id) => {
+    const listaFiltrada = lista.filter((item) => item.id !== id);
+    setLista(listaFiltrada);
   };
 
   return (
@@ -77,7 +84,64 @@ export default function Todo() {
         </div>
       </section>
 
+      <div className="card">
+        <h1>Login</h1>
+        <form onSubmit={salvar}>
+          <div className="input-container">
+            <p><label htmlFor="email">Email:</label>
+            <input
+              id="email"
+              className="blue-border-input"
+              onChange={(e) => setEmail(e.target.value)}
+              type="text"
+              value={Email}
+            /></p>
+            <p><label htmlFor="cpf">CPF:</label>
+            <input
+              id="cpf"
+              className="blue-border-input"
+              onChange={(e) => setCpf(e.target.value)}
+              type="text"
+              value={Cpf}
+            /></p>
+           <p> <label htmlFor="senha">Senha:</label>
+            <input
+              id="senha"
+              className="blue-border-input"
+              onChange={(e) => setSenha(e.target.value)}
+              type="password"
+              value={Senha}
+            /></p>
+            <button className="blue-border-button">Cadastrar</button>
+          </div>
+        </form>
+
+        {exibirMensagem && (
+          <p className="blue-message">Parabéns, você foi registrado!</p>
+        )}
+
+        <div>
+          <div className="values-area">
+            {lista.map((item) => (
+              <div key={item.id}>
+                <p>Email: {item.Email}</p>
+                <p>CPF: {item.Cpf}</p>
+                <button
+                  className="blue-border-button"
+                  onClick={() => remover(item.id)}
+                >
+                  Remover
+                </button>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
       
+
+
+
     </div>
   );
 }
