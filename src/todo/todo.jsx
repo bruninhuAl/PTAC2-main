@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Todo() {
-  const [atividade, setAtividade] = useState("");
   const [lista, setLista] = useState([]);
   const [id, setId] = useState(1);
 
@@ -25,7 +24,7 @@ export default function Todo() {
         <div className="container-fluid px-0 shadow">
           <nav
             className="navbar navbar-expand-lg navbar-light"
-            style={{ backgroundColor: "#e3f2fd" }}
+            style={{ backgroundColor: "#89CFF0" }}
           >
             <a className="navbar-brand pl-5 pl-small-0" href="/">
               <img

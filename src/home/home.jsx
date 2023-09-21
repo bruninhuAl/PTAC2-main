@@ -37,7 +37,7 @@ export default function home() {
         <div className="container-fluid px-0 shadow">
           <nav
             className="navbar navbar-expand-lg navbar-light"
-            style={{ backgroundColor: "#e3f2fd" }}
+            style={{ backgroundColor: "#89CFF0" }}
           >
             <a className="navbar-brand pl-5 pl-small-0" href="/">
               <img
@@ -110,7 +110,7 @@ export default function home() {
       </div>
       </div>
 
-      <div id="marg2" className="text-dark" style={{ backgroundColor: "#e3f2fd" }}>
+      <div id="marg2" className="text-dark" style={{ backgroundColor: "#89CFF0" }}>
         <div className="container text-center">
           <div className="row">
             <div className="col"></div>
