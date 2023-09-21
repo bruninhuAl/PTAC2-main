@@ -33,7 +33,7 @@ export default function Todo() {
             className="navbar navbar-expand-lg navbar-light"
             style={{ backgroundColor: "#89CFF0" }}
           >
-            <a className="navbar-brand pl-5 pl-small-0" href="/">
+            <a className="navbar-brand pl-5 pl-small-0" href="/home">
               <img
                 src="https://projeto-final-alg-laec-e-design.bruninhu.repl.co/Logo%20Navbar.png"
                 className="img img-fluid"

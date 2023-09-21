@@ -39,7 +39,7 @@ export default function home() {
             className="navbar navbar-expand-lg navbar-light"
             style={{ backgroundColor: "#89CFF0" }}
           >
-            <a className="navbar-brand pl-5 pl-small-0" href="/">
+            <a className="navbar-brand pl-5 pl-small-0" href="/home">
               <img
                 src="https://projeto-final-alg-laec-e-design.bruninhu.repl.co/Logo%20Navbar.png"
                 className="img img-fluid"
@@ -110,25 +110,6 @@ export default function home() {
       </div>
       </div>
 
-      <div id="marg2" className="text-dark" style={{ backgroundColor: "#89CFF0" }}>
-        <div className="container text-center">
-          <div className="row">
-            <div className="col"></div>
-            <div className="col-md-6">
-              <br />
-              <p>
-                A nossa ONG é registrada em várias jurisdições ao redor do
-                mundo.
-              </p>
-              <p>
-                © Copyright 2022 "SOMOS TODOS ANIMAIS" BR Limited. Todos os
-                direitos reservados.
-              </p>
-            </div>
-            <div className="col"></div>
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
