@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./home.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function home() {
   const [pet, setPet] = useState([
+  
+  
     {
       nome: "10 bolinhas interativas",
       preco: "59,98",
