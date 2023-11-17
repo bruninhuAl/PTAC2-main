@@ -129,7 +129,7 @@ export default function Todo() {
           <div className="values-area">
             {lista.map((item) => (
               <div key={item.id}>
-                <link to ={'/detalhe/${item.id}'}>
+                
                 <p>Email: {item.Email}</p>
                 <p>CPF: {item.Cpf}</p>
                 <button
