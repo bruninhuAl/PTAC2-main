@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom"
-
+import Card 
 export default function Detalhe() {
 
     const { id } = useParams();
@@ -14,6 +14,6 @@ export default function Detalhe() {
     console.log(lista)
 
     return (
-        <h1>{ id }</h1>
+        <Card produto={atividade}/>
     );
 }
